@@ -1,0 +1,480 @@
+/* Reset styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #e40505;
+  color: #000000;
+  line-height: 1.6;
+}
+
+/* Header styles */
+.header {
+  background-color: #fff1f1;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Logo styles */
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo a {
+  display: flex;
+  align-items: center;
+  text-decoration: none; /* Remove underline */
+  color: inherit; /* Inherit color from parent */
+}
+
+.logo-img {
+  width: 100px;
+  margin-right: 10px;
+}
+
+.logo-title {
+  font-size: 24px;
+  color: #000000;
+  margin: 0; /* Remove default margin */
+}
+
+
+/* Navigation styles */
+.nav-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.nav-item {
+  margin-right: 20px;
+}
+
+.nav-item:last-child {
+  margin-right: 0;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #000000;
+  transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+  color: #ce0404;
+}
+
+/* Main content styles */
+.main-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: calc(100vh - 160px);
+}
+
+/* Content styles */
+.content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 80%;
+  max-width: 1200px;
+}
+
+/* Left section styles */
+.left-section {
+  width: 100%;
+  background-size: cover;
+  background-position: top;
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.welcome-message {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #ffffff;
+  margin-left: 20px;
+}
+
+.welcome-title {
+  font-size: 40px;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.welcome-text {
+  font-size: 18px;
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+
+/* Map styles */
+.map {
+  width: 100%;
+}
+
+/* Right Section Styles */
+.right-section {
+  padding: 70px;
+  text-align: center;
+  margin: 0 auto; /* Center horizontally */
+  max-width: 600px; /* Optional: Limit the width of the section */
+}
+
+.right-section-title {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+/* Social Icons Styles */
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.social-link {
+  display: inline-block;
+}
+
+.social-icon {
+  width: 40px;
+  height: 40px;
+}
+
+
+/* Footer styles */
+.footer {
+  background-color: #333333;
+  color: #ffffff;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.contact-info,
+.additional-info {
+  width: 45%;
+}
+
+.info-title {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.info-text {
+  font-size: 16px;
+}
+
+.our-history h2 {
+  text-align: center;
+  color: #000000;
+  margin-bottom: 10px;
+}
+
+.about h2 {
+  text-align: center;
+  color: #000000;
+  margin-bottom: 10px;
+}
+
+.contact-img .contact-container h2 {
+  text-align: center;
+  color: #08e42d;
+  margin-bottom: 10px;
+  margin-left: 450px;
+}
+
+/* Contact Section Styles */
+.contact-section {
+  padding: 50px 0;
+  text-align: center;
+}
+
+.contact-wrapper {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 15px;
+}
+
+.contact-wrapper h2 {
+  font-size: 30px;
+  margin-bottom: 30px;
+  color: #000000;
+}
+
+/* Contact Details Styles */
+.contact-details {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 30px;
+}
+
+.detail-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.detail-item i {
+  color: #333;
+  font-size: 24px;
+  margin-left: 10px;
+}
+
+.detail-item p {
+  margin: 0;
+}
+
+/* Contact Form Styles */
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.contact-form button {
+  padding: 10px 20px;
+  background-color: #000000;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.contact-form button:hover {
+  background-color: #ff1a12;
+}
+
+/* Job Application Form Styles */
+.job-application-form {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #e70000;
+  border-radius: 10px; 
+  margin-top: 10px;
+}
+
+.job-application-form h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #000000;
+}
+
+.job-application-form label {
+  display: block;
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+.job-application-form input,
+.job-application-form textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.job-application-form small {
+  display: block;
+  margin-top: 5px;
+  color: #888;
+}
+
+.job-application-form button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-top: 20px;
+  background-color: #000000;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.job-application-form button:hover {
+  background-color: #00bb09;
+}
+
+/* Course Packages Styles */
+.course-packages {
+  display: flex;
+  justify-content: space-around; /* Changed from space-between to space-around for better distribution */
+  padding: 20px;
+  background-color: #db0707;
+  flex-direction: row; /* Changed from column to row */
+  align-items: flex-start; /* Changed from center to flex-start to align items at the start of the container */
+  flex-wrap: wrap; /* Added to allow the items to wrap as needed */
+  gap: 20px;
+}
+
+.course-packages h2 {
+  text-align: center;
+  margin-bottom: 5px;
+  width: 10%; /* Added to span the full width of the container */
+}
+
+/* Package Styles */
+.package {
+  border: 3px solid #020101;
+  border-radius: 5px;
+  padding: 0px;
+  width: calc(100%); /* Changed from 80% to calculate the width based on the number of packages (assuming 3 packages) and the gap */
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.package h3 {
+  margin-bottom: 10px;
+}
+
+.package p {
+  margin-bottom: 10px;
+}
+
+.package ul {
+  list-style-type: none;
+  padding: 0;
+  margin-bottom: 20px;
+}
+
+.price {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.buy-button {
+  padding: 10px 20px;
+  color: #fdfdfd;
+  background-color: #000000;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.buy-button:hover {
+  background-color: #09ff00;
+}
+
+/* Team Members Styles */
+.team-members {
+  display: flex;
+  flex-direction: row; /* Changed from column to row */
+  justify-content: space-around; /* Added to evenly distribute team members in a row */
+  align-items: flex-start; /* Changed from center to flex-start to align items at the start of the container */
+  flex-wrap: wrap; /* Added to allow the items to wrap as needed */
+  padding: 20px;
+  background-color: #e60303f6;
+  gap: 20px;
+}
+
+.team-members h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  width: 100%; /* Added to span the full width of the container */
+}
+
+/* Member Styles */
+.member {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 20px;
+  width: calc(100%); /* Changed from 80% to calculate the width based on the number of members (assuming 3 members) and the gap */
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.member img {
+  width: 50%;
+  height: auto;
+  margin-bottom: 15px;
+}
+
+.member h3 {
+  margin-bottom: 5px;
+}
+
+.member p:first-of-type {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.member p:last-of-type {
+  margin-bottom: 10px;
+}
+
+.about-section {
+  background-color: #f9f9f9;
+  padding: 50px 0;
+  text-align: center;
+}
+
+.about-section h2 {
+  font-size: 30px;
+  color: #030303;
+}
+
+.about-section p {
+  font-size: 20px;
+  color: #000000;
+  line-height: 1.6;
+}
+.courses-section h1{
+  text-align: center;
+  color: #000000;
+  margin-bottom: 10px;
+}
+.courses-section p{
+  text-align: center;
+  color: #000000;
+  line-height: 1.6;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #850606;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #007e30;
+}
+.footer-bottom{
+  background-color: #000000;
+  color: #f8f0f0;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
